@@ -1,0 +1,33 @@
+language: php
+
+sudo: false
+
+cache:
+    directories:
+    - $HOME/.composer/cache
+
+php:
+    - 7.0
+    - 7.1
+    - 7.2
+    - 7.3
+    - 7.4
+    - nightly
+
+matrix:
+  allow_failures:
+    - php: nightly
+
+install:
+    - composer install
+
+before_script:
+    - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+    - chmod +x ./cc-test-reporter
+    - ./cc-test-reporter before-build
+
+script: ./vendor/bin/phpunit -c phpunit.xml.dist
+
+after_script:
+    ## Code climate
+    - if [ "$TRAVIS_PHP_VERSION" != "nightly" ]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi

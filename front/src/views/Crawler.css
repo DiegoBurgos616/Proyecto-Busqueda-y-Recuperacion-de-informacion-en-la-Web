@@ -1,0 +1,33 @@
+/* Crawler.css */
+
+.table {
+    color: #fff; /* Texto blanco para la tabla de links */
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle; /* Alinea verticalmente los elementos de la tabla al centro */
+  }
+  
+  .btn-outline-secondary {
+    color: #fff; /* Texto blanco para los botones de acción */
+    border-color: #fff; /* Color del borde para los botones de acción */
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón sobre los botones de acción */
+  }
+  
+  .input-group .form-control {
+    background-color: #444; /* Fondo oscuro para el cuadro de texto de nuevo link */
+    color: #fff; /* Texto blanco para el cuadro de texto de nuevo link */
+  }
+  
+  .input-group .btn-outline-secondary {
+    color: #fff; /* Texto blanco para los botones de nuevo link */
+  }
+  
+  .input-group .btn-outline-secondary:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón sobre los botones de nuevo link */
+  }
+  

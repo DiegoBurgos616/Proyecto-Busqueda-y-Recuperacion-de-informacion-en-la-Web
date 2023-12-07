@@ -1,0 +1,52 @@
+/* Home.css */
+
+.container h1 {
+    color: #61dafb; /* Color azul claro para el título */
+  }
+  
+  .container-fluid {
+    margin-top: 20px; /* Ajuste de margen superior para el formulario de búsqueda */
+  }
+  
+  .form-control {
+    border-color: #61dafb; /* Color del borde del cuadro de búsqueda */
+  }
+  
+  .btn-outline-primary {
+    color: #fff; /* Color de texto blanco para el botón de búsqueda */
+    border-color: #61dafb; /* Color del borde del botón de búsqueda */
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #61dafb; /* Color de fondo al pasar el ratón sobre el botón de búsqueda */
+  }
+  
+  /* Estilos adicionales según sea necesario */
+  /* Estilos CSS */
+
+.container-custom {
+    width: 700px;
+  }
+  
+  .card {
+    background-color: #333; /* Fondo oscuro para la tarjeta */
+  }
+  
+  .card-body {
+    color: #fff; /* Texto blanco en la tarjeta */
+  }
+  /* Estilos CSS */
+
+.result-container {
+    width: 700px;
+  }
+  
+  .list-group-item {
+    background-color: #333; /* Fondo oscuro para los elementos de la lista */
+    color: #fff; /* Texto blanco para los elementos de la lista */
+  }
+  
+  .list-group-item:hover {
+    background-color: #555; /* Color de fondo oscuro al pasar el ratón sobre los elementos de la lista */
+  }
+  

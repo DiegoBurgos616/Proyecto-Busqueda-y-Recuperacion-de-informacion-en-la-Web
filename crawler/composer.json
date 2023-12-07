@@ -1,0 +1,6 @@
+{
+    "require": {
+        "icanboogie/inflector": "^2.0",
+        "landrok/language-detector": "^1.3"
+    }
+}

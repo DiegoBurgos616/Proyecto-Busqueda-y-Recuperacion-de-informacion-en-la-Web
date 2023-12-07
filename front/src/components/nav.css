@@ -1,0 +1,28 @@
+/* styles.css (o el nombre que hayas elegido) */
+
+.nav {
+    background-color: #333; /* Color de fondo oscuro */
+    padding: 10px;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+}
+
+.nav-item {
+    /* Elimina el margen derecho de todos los elementos */
+    margin-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    transition: color 0.3s ease; /* Efecto de transición suave para el color de texto */
+}
+
+.nav-link:hover {
+    color: #61dafb; /* Color de texto al pasar el ratón sobre el enlace */
+}
+
+.active {
+    font-weight: bold; /* Estilo adicional para el enlace activo */
+    color: #61dafb; /* Puedes ajustar el color según tus preferencias */
+}
